@@ -1,9 +1,9 @@
 <h1 align="center">conventional-changelog-custom-config</h1>
 <p>
-  <a href="https://github.com/ITxiaohao/conventional-changelog-custom-config#readme">
+  <a href="https://github.com/pteargryphon/conventional-changelog-custom-config#readme">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
-  <a href="https://github.com/ITxiaohao/conventional-changelog-custom-config/blob/master/LICENSE">
+  <a href="https://github.com/pteargryphon/conventional-changelog-custom-config/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
   </a>
 </p>
@@ -122,7 +122,7 @@ npm run changelog
 
 ## Examples
 
-![](https://raw.githubusercontent.com/ITxiaohao/blog-img/master/img/vue-admin/20190710133722.png)
+![](https://raw.githubusercontent.com/pteargryphon/blog-img/master/img/vue-admin/20190710133722.png)
 
 ## Show your support
 
@@ -132,8 +132,8 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2019 [zengshunhao](https://github.com/ITxiaohao).<br />
-This project is [MIT](https://github.com/ITxiaohao/conventional-changelog-custom-config/blob/master/LICENSE) licensed.
+Copyright © 2019 [zengshunhao](https://github.com/pteargryphon).<br />
+This project is [MIT](https://github.com/pteargryphon/conventional-changelog-custom-config/blob/master/LICENSE) licensed.
 
 ## Thanks
 
