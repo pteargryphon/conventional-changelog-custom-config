@@ -15,7 +15,7 @@
   {{~else}}
     {{~@root.repoUrl}}
   {{~/if~}}
-  /compare/{{previousTag}}...{{currentTag}})
+  /branchCompare?_a=commits&baseVersion=GT{{previousTag}}&targetVersion=GT{{currentTag}})
 {{~else}}
   {{~version}}
 {{~/if}}

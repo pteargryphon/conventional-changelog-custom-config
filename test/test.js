@@ -115,7 +115,7 @@ describe('custom-config preset', function() {
           expect(chunk).to.include('**compile:** avoid a bug')
           expect(chunk).to.include('make it faster')
           expect(chunk).to.include(
-            ', closes [#1](https://github.com/ITxiaohao/conventional-changelog-custom-config/issues/1) [#2](https://github.com/ITxiaohao/conventional-changelog-custom-config/issues/2)'
+            ', closes [#1](https://github.com/pteargryphon/conventional-changelog-custom-config/issues/1) [#2](https://github.com/pteargryphon/conventional-changelog-custom-config/issues/2)'
           )
           expect(chunk).to.include('New build system.')
           expect(chunk).to.include('Not backward compatible.')
@@ -155,7 +155,7 @@ describe('custom-config preset', function() {
         through(function(chunk) {
           chunk = chunk.toString()
           expect(chunk).to.include(
-            '[#133](https://github.com/ITxiaohao/conventional-changelog-custom-config/issues/133)'
+            '[#133](https://github.com/pteargryphon/conventional-changelog-custom-config/issues/133)'
           )
           done()
         })
@@ -175,10 +175,10 @@ describe('custom-config preset', function() {
         through(function(chunk) {
           chunk = chunk.toString()
           expect(chunk).to.include(
-            '[#88](https://github.com/ITxiaohao/conventional-changelog-custom-config/issues/88)'
+            '[#88](https://github.com/pteargryphon/conventional-changelog-custom-config/issues/88)'
           )
           expect(chunk).to.not.include(
-            'closes [#88](https://github.com/ITxiaohao/conventional-changelog-custom-config/issues/88)'
+            'closes [#88](https://github.com/pteargryphon/conventional-changelog-custom-config/issues/88)'
           )
           done()
         })
@@ -276,8 +276,8 @@ describe('custom-config preset', function() {
           function(chunk, enc, cb) {
             chunk = chunk.toString()
 
-            expect(chunk).to.include('(http://unknown/compare')
-            expect(chunk).to.include('](http://unknown/commits/')
+            expect(chunk).to.include('(http://unknown/branchCompare')
+            expect(chunk).to.include('](http://unknown/commit/')
 
             i++
             cb()
@@ -309,7 +309,7 @@ describe('custom-config preset', function() {
             chunk = chunk.toString()
 
             expect(chunk).to.include(
-              '(https://github.com/conventional-changelog/example/compare'
+              '(https://github.com/conventional-changelog/example/branchCompare'
             )
             expect(chunk).to.include(
               '](https://github.com/conventional-changelog/example/commit/'
@@ -345,13 +345,13 @@ describe('custom-config preset', function() {
             chunk = chunk.toString()
 
             expect(chunk).to.include(
-              '(https://github.com/ITxiaohao/conventional-changelog-custom-config/compare'
+              '(https://github.com/pteargryphon/conventional-changelog-custom-config/branchCompare'
             )
             expect(chunk).to.include(
-              '](https://github.com/ITxiaohao/conventional-changelog-custom-config/commit/'
+              '](https://github.com/pteargryphon/conventional-changelog-custom-config/commit/'
             )
             expect(chunk).to.include(
-              '](https://github.com/ITxiaohao/conventional-changelog-custom-config/issues/'
+              '](https://github.com/pteargryphon/conventional-changelog-custom-config/issues/'
             )
 
             i++
@@ -383,7 +383,7 @@ describe('custom-config preset', function() {
 
           expect(chunk).to.include('(https://github.internal.example.com/dlmr')
           expect(chunk).to.include(
-            '(https://github.internal.example.com/conventional-changelog/internal/compare'
+            '(https://github.internal.example.com/conventional-changelog/internal/branchCompare'
           )
           expect(chunk).to.include(
             '](https://github.internal.example.com/conventional-changelog/internal/commit/'
